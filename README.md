@@ -19,37 +19,48 @@ The goal of this project is to build a fraud detection system that can accuratel
 ## Dataset
 The dataset used in this project consists of credit card transactions from - https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download 
 
-Installation
+Certainly! Here's the updated and properly formatted **Installation** section with the Bash commands:
+
+---
+
+## **Installation**
+
 To run the project, make sure you have Python installed on your system. Follow the steps below to set up the environment and run the Jupyter Notebook.
 
-1. Clone the Repository
+### **1. Clone the Repository**
+
 Open a terminal and clone the repository to your local machine:
 
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/kanak2199/credit-card-fraud-detection.git
+```
 
-2. Install Dependencies
-Navigate to the project directory and install the required dependencies using the requirements.txt file:
+### **2. Install Dependencies**
 
-bash
-Copy
-Edit
+Navigate to the project directory and install the required dependencies using the `requirements.txt` file:
+
+```bash
 cd credit-card-fraud-detection
 pip install -r requirements.txt
+```
 
-3. Launch Jupyter Notebook
+### **3. Launch Jupyter Notebook**
+
 After the dependencies are installed, launch Jupyter Notebook:
 
-bash
-Copy
-Edit
+```bash
 jupyter notebook
+```
+
 This will open the Jupyter Notebook interface in your web browser.
 
-4. Open the Notebook
-In the Jupyter Notebook interface, navigate to the notebooks/ folder and open the fraud_detection.ipynb notebook. You can now start running the code and explore the project!
+### **4. Open the Notebook**
+
+In the Jupyter Notebook interface, open the `fraud_detection.ipynb` notebook. You can now start running the code and explore the project!
+
+---
+
+This should provide clear and concise instructions for setting up and running the project using Jupyter Notebook!
 
 ## Evaluation Metrics
 **For the supervised models:**
