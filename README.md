@@ -5,31 +5,42 @@ This project aims to detect fraudulent credit card transactions using a variety 
 The goal of this project is to build a fraud detection system that can accurately predict whether a given transaction is fraudulent or not. The dataset consists of credit card transactions, where each transaction is labeled as either fraudulent (1) or non-fraudulent (0). We will apply several machine learning algorithms to this dataset to detect fraudulent transactions.
 
 ## Supervised Learning Models
-1. Logistic Regression: A linear model for binary classification that predicts the probability of fraud based on the features.
-Random Forest: An ensemble learning method that combines multiple decision trees to improve prediction accuracy.
-2. Support Vector Classifier (SVC): A classification method that finds the hyperplane which best separates fraudulent and non-fraudulent transactions.
-3. Gradient Boosting: A boosting technique that combines weak learners (typically decision trees) to create a strong predictive model.
-4. Neural Network (Sequential): A deep learning approach where multiple layers of neurons are used to learn patterns in the data and predict fraudulent transactions.
+1. **Logistic Regression:** A linear model for binary classification that predicts the probability of fraud based on the features.
+2. **Random Forest:** An ensemble learning method that combines multiple decision trees to improve prediction accuracy.
+3. **Support Vector Classifier (SVC):** A classification method that finds the hyperplane which best separates fraudulent and non-fraudulent transactions.
+4. **Gradient Boosting:** A boosting technique that combines weak learners (typically decision trees) to create a strong predictive model.
+5. **Neural Network (Sequential):** A deep learning approach where multiple layers of neurons are used to learn patterns in the data and predict fraudulent transactions.
 
 ## Anomaly Detection Models
-1. Isolation Forest: A tree-based algorithm that isolates observations by randomly selecting a feature and a split value, making it efficient for detecting anomalies.
-2. Local Outlier Factor (LOF): A density-based algorithm that identifies anomalies based on the local density of data points compared to their neighbors.
-3. DBSCAN (Density-Based Spatial Clustering of Applications with Noise): A clustering algorithm that detects outliers based on the density of data points, classifying points that do not belong to any cluster as noise (anomalies).
+1. **Isolation Forest:** A tree-based algorithm that isolates observations by randomly selecting a feature and a split value, making it efficient for detecting anomalies.
+2. **Local Outlier Factor (LOF):** A density-based algorithm that identifies anomalies based on the local density of data points compared to their neighbors.
+3. **DBSCAN (Density-Based Spatial Clustering of Applications with Noise):** A clustering algorithm that detects outliers based on the density of data points, classifying points that do not belong to any cluster as noise (anomalies).
 
 ## Dataset
 The dataset used in this project consists of credit card transactions from - https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download 
 
-## Installation
-To run the project, make sure you have Python installed on your system. You can install the required dependencies using the requirements.txt file.
+Installation
+To run the project, make sure you have Python installed on your system. Follow the steps below to set up the environment and run the Jupyter Notebook.
+
+1. Clone the Repository
+Open a terminal and clone the repository to your local machine:
 
 bash
 Copy
 Edit
-## Clone the repository
 git clone https://github.com/kanak2199/credit-card-fraud-detection.git
 
-## Install dependencies
+2. Install Dependencies
+Navigate to the project directory and install the required dependencies using the requirements.txt file:
+
+bash
+Copy
+Edit
+cd credit-card-fraud-detection
 pip install -r requirements.txt
+
+3. Launch Jupyter Notebook
+After the dependencies are installed, launch Jupyter Notebook:
 
 bash
 Copy
@@ -37,7 +48,8 @@ Edit
 jupyter notebook
 This will open the Jupyter Notebook interface in your web browser.
 
-Open the Notebook: In the Jupyter Notebook interface, navigate to the notebooks folder and open fraud_detection.ipynb to start running the code.
+4. Open the Notebook
+In the Jupyter Notebook interface, navigate to the notebooks/ folder and open the fraud_detection.ipynb notebook. You can now start running the code and explore the project!
 
 ## Evaluation Metrics
 **For the supervised models:**
