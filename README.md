@@ -4,14 +4,14 @@ This project aims to detect fraudulent credit card transactions using a variety 
 ## Project Overview
 The goal of this project is to build a fraud detection system that can accurately predict whether a given transaction is fraudulent or not. The dataset consists of credit card transactions, where each transaction is labeled as either fraudulent (1) or non-fraudulent (0). We will apply several machine learning algorithms to this dataset to detect fraudulent transactions.
 
-## Supervised Learning Models
+### Supervised Learning Models
 1. **Logistic Regression:** A linear model for binary classification that predicts the probability of fraud based on the features.
 2. **Random Forest:** An ensemble learning method that combines multiple decision trees to improve prediction accuracy.
 3. **Support Vector Classifier (SVC):** A classification method that finds the hyperplane which best separates fraudulent and non-fraudulent transactions.
 4. **Gradient Boosting:** A boosting technique that combines weak learners (typically decision trees) to create a strong predictive model.
 5. **Neural Network (Sequential):** A deep learning approach where multiple layers of neurons are used to learn patterns in the data and predict fraudulent transactions.
 
-## Anomaly Detection Models
+### Anomaly Detection Models
 1. **Isolation Forest:** A tree-based algorithm that isolates observations by randomly selecting a feature and a split value, making it efficient for detecting anomalies.
 2. **Local Outlier Factor (LOF):** A density-based algorithm that identifies anomalies based on the local density of data points compared to their neighbors.
 3. **DBSCAN (Density-Based Spatial Clustering of Applications with Noise):** A clustering algorithm that detects outliers based on the density of data points, classifying points that do not belong to any cluster as noise (anomalies).
@@ -19,11 +19,8 @@ The goal of this project is to build a fraud detection system that can accuratel
 ## Dataset
 The dataset used in this project consists of credit card transactions from - https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download 
 
-Certainly! Here's the updated and properly formatted **Installation** section with the Bash commands:
 
----
-
-## **Installation**
+## Installation
 
 To run the project, make sure you have Python installed on your system. Follow the steps below to set up the environment and run the Jupyter Notebook.
 
@@ -58,13 +55,11 @@ This will open the Jupyter Notebook interface in your web browser.
 
 In the Jupyter Notebook interface, open the `fraud_detection.ipynb` notebook. You can now start running the code and explore the project!
 
----
-
 This should provide clear and concise instructions for setting up and running the project using Jupyter Notebook!
 
 ## Evaluation Metrics
-**For the supervised models:**
 
+**For the supervised models:**
 1. Accuracy: Measures the proportion of correctly classified transactions.
 2. Precision, Recall, F1-score: Measures the model's performance, particularly for imbalanced classes like fraud detection.
 3. Confusion Matrix: Visualizes the true positives, true negatives, false positives, and false negatives.
